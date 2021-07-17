@@ -1,5 +1,7 @@
 # Neon Startpage
 
+![Neon Startpage](img/screenshot.png)
+
 ## Features
 - No plugins required.
 - Easily customizable bookmarks and search engines.
