@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Startpage</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="day-progress-wrapper">
+        <div id="clock"></div>
+        <div id="day-progress"></div>
+    </div>
+
+    <div id="content">
+        <h1 class="neon-text">Neon Startpage</h1>
+        <div id="weather">
+            <div id="weather-condition-wrapper">
+                <div class="weather-item-wrapper">
+                    <img class="weather-icon" src="img/loading.gif" alt="Loading..." />
+                    <h4>Loading</h4>
+                </div>
+            </div>
+
+            <div id="weather-temp-wrapper">
+                <div id="weather-temp-ruler">
+                    <span id="weather-temp"></span>
+                    <div id="weather-temp-marker"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="info-panel-tl" class="info-panel">
+            <ul class="info-panel-list">
+                <li class="info-panel-item">
+                    IP: <span id="info-ip-addr" class="censored"></span>
+                </li>
+                <li class="info-panel-item"><span id="info-currency"></span></li>
+            </ul>
+        </div>
+
+        <div id="search">
+            <input id="search-bar" type="text" />
+            <button id="search-btn" class="neon-button">Go</button>
+        </div>
+        <div id="search-button-wrapper">
+            <button id="shortcuts-btn" class="neon-button">Search shortcuts (F1)</button>
+            <button id="clear-search-btn" class="neon-button">Clear search (F2)</button>
+        </div>
+        <div id="search-engines-wrapper" style="display: none"></div>
+
+        <div id="bookmarks"></div>
+    </div>
+
+    <script src="search_engines.js"></script>
+    <script src="bookmarks.js"></script>
+    <script src="api.js"></script>
+    <script src="api_config.js"></script>
+    <script src="weather.js"></script>
+    <script src="currency.js"></script>
+    <script src="ipify.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
