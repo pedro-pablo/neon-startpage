@@ -3,10 +3,11 @@
 ![Neon Startpage](img/screenshot.png)
 
 ## Features
-- No plugins required.
-- Easily customizable bookmarks and search engines.
-- Pixel art icons for weather conditions *(but not good)*.
+- Easy to use.
+- Easy to customize bookmarks and search engine shortcuts.
+- No plugins, addons or additional downloads required.
 - Integration with weather, currency and external IP APIs.
+- Pixel art icons for weather conditions *(not pretty)*.
 
 ## How to install
 1. Clone the repo somewhere in your machine.
